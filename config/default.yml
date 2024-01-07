@@ -18,7 +18,7 @@ Capybara/ClickLinkOrButtonStyle:
   SupportedStyles:
     - link_or_button
     - strict
-  Reference: https://www.rubydoc.info/gems/rubocop-capybara/RuboCop/Cop/Capybara/ClickLinkOrButtonStyle
+  Reference: https://github.com/rubocop/rubocop-capybara/pull/61
 
 Capybara/CurrentPathExpectation:
   Description: Checks that no expectations are set on Capybara's `current_path`.
@@ -84,7 +84,7 @@ Capybara/RSpec/HaveSelector:
   Enabled: pending
   DefaultSelector: css
   VersionAdded: '2.19'
-  Reference: https://www.rubydoc.info/gems/rubocop-capybara/RuboCop/Cop/Capybara/RSpec/HaveSelector
+  Reference: https://github.com/rubocop/rubocop-capybara/pull/63
 
 Capybara/RSpec/PredicateMatcher:
   Description: Prefer using predicate matcher over using predicate method directly.
